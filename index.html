@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Table Sorting</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body id="body">
+    <!-- dropdown section -->
+    <div class="dropdown">
+      <label for="sorting"></label>
+      <select name="sorting" id="select">
+        <option value="" disabled selected hidden>-Sort In-</option>
+        <option value="ascending">Ascending</option>
+        <option value="desending">Desending</option>
+      </select>
+
+      <label for="sortingby"></label>
+      <select name="sortingby" id="choose">
+        <option value="" disabled selected hidden>-Sort By-</option>
+        <option value="company">Company</option>
+        <option value="model">Model</option>
+        <option value="memory">Memory</option>
+        <option value="Price">Price</option>
+      </select>
+    </div>
+    <!-- table section -->
+    <div class="container">
+      <table id="result">
+        <tr>
+          <th id="company">Company</th>
+          <th id="model">Model</th>
+          <th id="memory">Memory</th>
+          <th id="price">Price</th>
+        </tr>
+        <tbody id="tbody">
+          <tr>
+           <td>Samsung</td>
+           <td>Galaxy</td>
+           <td>64</td>
+           <td>50000</td>
+          </tr>
+          <tr>
+            <td>Apple</td>
+            <td>Iphone XR</td>
+            <td>64</td>
+            <td>25000</td>
+          </tr>
+          <tr>
+            <td>Apple</td>
+            <td>Iphone 11</td>
+            <td>128</td>
+            <td>45000</td>
+          </tr>
+          <tr>
+            <td>Apple</td>
+            <td>Iphone 12</td>
+            <td>128</td>
+            <td>50000</td>
+          </tr>
+          <tr>
+            <td>Apple</td>
+            <td>Iphone 13</td>
+            <td>256</td>
+            <td>75000</td>
+          </tr>
+          <tr>
+            <td>Apple</td>
+            <td>Iphone 14</td>
+            <td>128</td>
+            <td>100000</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

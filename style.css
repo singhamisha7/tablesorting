@@ -1,0 +1,9 @@
+/* dropdown section */
+.dropdown {
+    padding: 5px 10px 0px;
+    width: 100%;
+}
+/* table section */
+th,td {
+  padding: 10px;
+}
